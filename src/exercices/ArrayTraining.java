@@ -5,8 +5,8 @@ public class ArrayTraining {
      * @return an empty int array of size n, eg: {0, 0, 0}
      */
     public int[] emptyIntArray(int n) {
-
-        return null;
+    	int[] tab = new int[n];
+        return tab;
     }
 
     /**
@@ -14,8 +14,8 @@ public class ArrayTraining {
      * @return an empty String array of size n, eg: {null, null}
      */
     public String[] emptyStringArray(int n) {
-
-        return null;
+    	String[] tab = new String[n];
+        return tab;
     }
 
     /**
@@ -25,8 +25,11 @@ public class ArrayTraining {
      * @return an int array with a, b and c values, eg: {3, 2, 1}
      */
     public int[] intArray(int a, int b, int c) {
-
-        return null;
+    	int[] tab = new int[3];
+        tab[0]=a;
+        tab[1]=b;
+        tab[2]=c;
+    	return tab;
     }
 
     /**
@@ -37,8 +40,11 @@ public class ArrayTraining {
      * eg: {"test", sample", "value"}
      */
     public String[] stringArray(String a, String b, String c) {
-
-        return null;
+    	String[] tab = new String[3];
+    	tab[0]=a;
+        tab[1]=b;
+        tab[2]=c;
+    	return tab;
     }
 
     /**
