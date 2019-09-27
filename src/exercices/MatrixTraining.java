@@ -91,8 +91,14 @@ public class MatrixTraining {
      * @return sum of matrix values, eg: 21
      */
     public int sum(int[][] matrix) {
-    	
-        return sum(matrix);
+    	int result=0;
+    	for (int i = 0; i < matrix.length; i++) {
+    		
+			for (int j = 0; j < matrix[0].length; j++) {
+				result += matrix[i][j];
+			}
+		}
+        return result;
     }
 
     /**
